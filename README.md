@@ -1,5 +1,7 @@
 # cloud-data-engineering-101
 
+![cloud-data-enginnering-log](./img/cloud-data-engineering.png)
+
 This repository include the Roadmap for Data Engineering. Since Data Engineering is a broad field we'll try to cover following tools.
 
 NOTE: It is a first draft of the course we'll Keep on updating.
