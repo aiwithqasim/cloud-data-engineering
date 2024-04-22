@@ -26,7 +26,10 @@ Since Data Engineering  is the field  in which you have to play around with the 
 
 When You have know Python & basic Data Analysis then for Data Engineeering Next Step shoudl be to know about Database & how to intereact with them. SQL is the most common laguage to that is been used for Databases/DataWareshousing from decads. So, we'll cover SQL as  query language for databases & we'll try to cover two flavours of SQL i:3. T-SQL & PostgresSQL.
 
-- content material to be announced.
+- [Postgres Tutoiral](https://www.postgresqltutorial.com/)
+- [Connecting to PostgresSQL using Python](https://www.postgresqltutorial.com/postgresql-python/connect/)
+- [SQL Server Tutorial](https://www.sqlservertutorial.net/)
+- [connecting to SQL Server using Python](https://pieriantraining.com/python-tutorial-how-to-connect-to-sql-server-in-python/)
 
 - [Project -1 Getting started with ETL using Python + Pandas + SQL](https://www.youtube.com/watch?v=uL0-6kfiH3g&list=PLBTZqjSKn0Ie0FvR3_ass_iTIqYV_CAth&index=2)
 
