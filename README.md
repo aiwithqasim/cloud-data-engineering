@@ -6,6 +6,11 @@ This repository include the Roadmap for Data Engineering. Since Data Engineering
 
 NOTE: It is a first draft of the course we'll Keep on updating.
 
+## Understanding Data Engineering
+Before starting the digging deep into the field of Data Engineering one should know what is Data Engineering, What is the Scope of Data ENgineering in 2024, what tools are required to have knowledge for data engineering.
+
+- [Understanding Data Engineering](./docs/Understanding%20Data%20Engineering.pptx)
+
 ## Python
 
 Today’s data-driven organizations rely on efficiency in data engineering tasks. As the demand for data increases, teams must have the ability to collect, process, and store extremely large volumes of data, and Python has emerged as a vital asset for accomplishing this mission. Teams use Python for data engineering tasks due to its flexibility, ease of use, and rich ecosystem of libraries and tools. that is why Python should be the first step toward Data Engineering. Following tis the repo in which we covered Python Programming.
@@ -32,6 +37,10 @@ When You have know Python & basic Data Analysis then for Data Engineeering Next 
 - [connecting to SQL Server using Python](https://pieriantraining.com/python-tutorial-how-to-connect-to-sql-server-in-python/)
 
 - [Project -1 Getting started with ETL using Python + Pandas + SQL](https://www.youtube.com/watch?v=uL0-6kfiH3g&list=PLBTZqjSKn0Ie0FvR3_ass_iTIqYV_CAth&index=2)
+
+<!-- 
+## Data Modeling & Data Warehousing  
+-->
 
 ## Snowflake
 
