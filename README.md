@@ -55,7 +55,6 @@ You'll learn everything from the basics of data acquisition and transformation t
 
 The course is structured to build your skills progressively, ensuring you are job-ready to tackle complex data engineering challenges by the end.  
 
----
 
 ## 📖 Understanding Data Engineering
 
@@ -66,17 +65,19 @@ Before diving deep, one should know:
 
 📂 [Understanding Data Engineering (PPT)](./docs/Understanding%20Data%20Engineering.pptx)
 
----
 
 ## 📦 Module 1: Data Acquisition ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
 
 ### Overview
 The focus of this module is on acquiring, manipulating, and processing data from various sources.  
-You’ll set up your data engineering environment, explore Python, manage projects with Git, and gain hands-on experience with **web scraping** using BeautifulSoup and Selenium.  
+You’ll set up your data engineering environment, explore Python, manage projects with Git, and gain hands-on experience with **web scraping** using BeautifulSoup and Selenium.
 
-➡️ Includes **projects** like: Netflix Data Analysis, GitHub History (Scala), Security Log Analysis, etc.  
+➡️ Includes **projects** like: 
 
----
+- ETL with Python
+- Netflix Data Analysis
+- GitHub History (Scala)
+- Security Log Analysis, etc.  
 
 ## 🗄️ Module 2: Data Modeling ![SQL](https://img.shields.io/badge/-SQL-025E8C?logo=postgresql&logoColor=white)
 
@@ -87,9 +88,10 @@ Dive into **database design, SQL querying, optimization, and ETL pipelines**.
 - Joins, aggregations, window functions  
 - Stored procedures, triggers, optimization  
 
-➡️ Project: **ETL pipeline with Python + Pandas + SQL**  
+➡️ Includes **projects** like: 
 
----
+- ETL pipeline with Python + Pandas + SQL
+
 
 ## ❄️ Module 3: Cloud Data Warehousing ![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?logo=snowflake&logoColor=white)
 
@@ -102,18 +104,22 @@ Master **Snowflake Cloud Data Warehousing** through hands-on badges, Udemy maste
 - Data Lake Workshop  
 - Data Engineering Workshop  
 
-➡️ Projects: Real-time Snowflake Data Warehouse, Change Data Capture with AWS  
+➡️ Includes **projects** like:  
 
----
+- Snowflake Real Time Data Warehouse For Beginners
+- Batch pipeline using AWS S3, lambda, Eventbridge and Snowflake for currency Exhancge rates
+- Real-time Snowflake Data Warehouse, Change Data Capture with AWS 
+
 
 ## ⏳ Module 4: Data Orchestration & Streaming ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?logo=apache-airflow&logoColor=white) ![Kafka](https://img.shields.io/badge/-Kafka-231F20?logo=apache-kafka&logoColor=white)
 
 - **Apache Airflow** for orchestration of ETL pipelines  
 - **Apache Kafka** for real-time data streaming and decoupling producers/consumers  
 
-➡️ Projects: Twitter Data Pipeline, Stock Market Analysis, Airflow on AWS EC2  
+➡️ Includes **projects** like:
 
----
+- Twitter Data Pipeline, Stock Market Analysis, Airflow on AWS EC2  
+
 
 ## ☁️ Module 5: Architecting AWS Data Engineering Projects ![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazon-aws&logoColor=white)
 
@@ -135,8 +141,6 @@ Dive deep into AWS ecosystem for data engineering:
 The chosen technologies (Python, SQL, Snowflake, Airflow, Kafka, AWS) are **the most in-demand** in industry, ensuring you are **job-ready** by the end of this course.  
 
 Each module builds on the previous one, reinforcing both **theory + practical projects**.  
-
----
 
 ## 📝 Final Notes
 
