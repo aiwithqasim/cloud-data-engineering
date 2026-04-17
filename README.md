@@ -12,7 +12,6 @@
 [![Version](https://img.shields.io/badge/version-1.3.0-3b82f6?style=for-the-badge&logoColor=white)](https://github.com/aiwithqasim/cloud-data-engineering)
 [![Status](https://img.shields.io/badge/status-active-10b981?style=for-the-badge&logoColor=white)](https://github.com/aiwithqasim/cloud-data-engineering)
 [![License](https://img.shields.io/badge/license-MIT-8b5cf6?style=for-the-badge&logoColor=white)](./LICENSE)
-[![Duration](https://img.shields.io/badge/duration-7_months-f59e0b?style=for-the-badge&logoColor=white)](https://github.com/aiwithqasim/cloud-data-engineering)
 [![GitHub Stars](https://img.shields.io/github/stars/aiwithqasim/cloud-data-engineering?style=for-the-badge&logo=github&color=f8fafc&labelColor=1e293b)](https://github.com/aiwithqasim/cloud-data-engineering/stargazers)
 [![Contributors](https://img.shields.io/github/contributors/aiwithqasim/cloud-data-engineering?style=for-the-badge&logo=github&color=34d399&labelColor=1e293b)](https://github.com/aiwithqasim/cloud-data-engineering/graphs/contributors)
 
