@@ -1,10 +1,10 @@
 # CLOUD DATA ENGINEERING
 
-<table>
-<tr>
-<td>
+<div>
 
-⚠️ &nbsp;<strong>FOR FACULTY — GUIDELINES ON COURSE CONTENT</strong>
+---
+
+⚠️ &nbsp;**FOR FACULTY — GUIDELINES ON COURSE CONTENT**
 
 - Do **not** teach topics outside the defined scope of this roadmap.
 - If you feel a topic is important or valuable for students, **discuss and coordinate with Qasim first** before introducing it in class.
@@ -14,9 +14,9 @@
 
 > — **Qasim Hassan** · Lead Data Engineer Instructor · Saylani Welfare
 
-</td>
-</tr>
-</table>
+---
+
+</div>
 
 <div align="center">
 
