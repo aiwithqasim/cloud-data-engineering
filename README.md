@@ -2,8 +2,6 @@
 
 <div>
 
----
-
 ⚠️ &nbsp;**FOR FACULTY — GUIDELINES ON COURSE CONTENT**
 
 - Do **not** teach topics outside the defined scope of this roadmap.
@@ -13,8 +11,6 @@
 - **Unauthorised changes to course material will not be accepted in Pull Requests.**
 
 > — **Qasim Hassan** · Lead Data Engineer Instructor · Saylani Welfare
-
----
 
 </div>
 
@@ -74,8 +70,6 @@
 11. [Section 8 — AWS](#-section-8--aws-4-weeks)
 12. [Section 9 — Azure](#-section-9--azure-3-weeks)
 13. [Why These Technologies?](#-why-these-technologies)
-
----
 
 ## 🚀 How to Use This Repo
 
@@ -144,8 +138,6 @@ Once you have completed the course (or a major section), open a **Pull Request**
 > git fetch upstream
 > git merge upstream/main
 > ```
-
----
 
 ## 🗓 Course Summary
 
@@ -218,8 +210,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 - End-to-end project: schema design, data ingestion, analytical queries, views, stored procedures
 - Snowflake Badge preparation walkthrough (3 badges)
 
----
-
 ## 🐍 Section 2 — Python *(4 weeks)*
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
@@ -246,8 +236,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 
 **Project:** ETL pipeline with Python + Pandas + SQL
 
----
-
 ## ⏳ Section 3 — Airflow *(2 weeks)*
 
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?logo=apache-airflow&logoColor=white)
@@ -270,8 +258,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 **Projects:**
 - **Weather ETL Pipeline** — Daily pipeline using Open-Meteo API → pandas → SQLite, deployed via Docker Compose
 - **Parallel ETL on AWS** — Production-style parallel pipeline: OpenWeather API + S3 CSV → RDS PostgreSQL → S3 export, using TaskGroups on AWS EC2
-
----
 
 ## 🐋 Section 4 — CI/CD, Docker & Bash Scripting *(2 weeks)*
 
@@ -300,8 +286,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 - Deploying DAGs, dbt models, Terraform infra, Docker containers via CD pipelines
 - End-to-end: Python ETL → GitHub Actions → Docker → AWS
 
----
-
 ## 🤖 Section 5 — Agentic Vibe Engineering *(1 week)*
 
 ![Claude](https://img.shields.io/badge/-Claude-6B46C1?logoColor=white)
@@ -313,8 +297,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 - Ralph Loops, GSD, Gas Town, OpenClaw, sprites.dev
 
 **Tools:** Cursor · Codex · Antigravity · Claude · Copilot
-
----
 
 ## ❄️ Section 6 — Snowflake + DBT *(4 weeks)*
 
@@ -343,8 +325,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 - **End-to-End Banking Data Engineering (Snowflake + dbt + Airflow)** — Full ELT pipeline on real-world banking data: raw ingestion into Snowflake, dbt staging/mart layers, data quality tests, and Airflow DAGs for orchestration.
   - 🎥 [Video](https://www.youtube.com/watch?v=uHiyZitmIS0&t=14475s)
 
----
-
 ## 📡 Section 7 — Kafka *(2 weeks)*
 
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?logo=apache-kafka&logoColor=white)
@@ -370,8 +350,6 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 
 - **Smart City Real-Time Streaming (Kafka + AWS)** — End-to-end IoT data ingestion and streaming project. Covers Kafka streaming, AWS services integration, and building a production-grade pipeline to process and visualize city-wide sensor data.
   - 🎥 [Video](https://www.youtube.com/watch?v=Vv_fvwF41_0&t=442s)
-
----
 
 ## ☁️ Section 8 — AWS *(4 weeks)*
 
@@ -408,8 +386,6 @@ End-to-end AWS data engineering series: S3 ingestion → Glue Crawler schema dis
 
 - 🎥 [Video](https://www.youtube.com/watch?v=yvAWbbQa8eE&t=95s)
 
----
-
 ## 🔷 Section 9 — Azure *(3 weeks)*
 
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white)
@@ -422,20 +398,14 @@ End-to-end AWS data engineering series: S3 ingestion → Glue Crawler schema dis
 
 - **Azure Synapse Analytics** — Unified analytics service combining big data processing and enterprise data warehousing with dedicated and serverless SQL pools.
 
----
-
 ## ❓ Why These Technologies?
 
 The technologies in this course — Python, SQL, Snowflake, dbt, Airflow, Kafka, AWS, Azure — are **the most in-demand** in the data engineering industry today.
 
 Each section builds on the previous one, reinforcing both theory and hands-on practice so you are **job-ready** by the end.
 
----
-
 ## 📝 Final Notes
 
 Throughout this course you will engage in **hands-on projects, assignments, and real-world case studies** that simulate production data engineering challenges.
 
 ⚡ Get ready to embark on this exciting journey of becoming a **proficient Cloud Data Engineer!** 🚀
-
----
