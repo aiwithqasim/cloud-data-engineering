@@ -1,0 +1,27 @@
+# Draft / work-in-progress files
+draft/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
