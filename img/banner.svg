@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Main background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f172a"/>
+      <stop offset="60%"  stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0c1a2e"/>
+    </linearGradient>
+
+    <!-- Top accent strip gradient -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3b82f6"/>
+      <stop offset="40%"  stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <!-- Underline beneath title -->
+    <linearGradient id="underline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3b82f6" stop-opacity="1"/>
+      <stop offset="60%"  stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Radial glow behind title area -->
+    <radialGradient id="titleGlow" cx="30%" cy="50%" r="40%">
+      <stop offset="0%"  stop-color="#1e3a5f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot grid pattern -->
+    <pattern id="grid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="0.8" cy="0.8" r="0.8" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+
+    <!-- Right side fade for clean edge -->
+    <linearGradient id="rightFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="60%"  stop-color="#111827" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#111827" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Dot grid overlay -->
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- Subtle radial glow behind title area -->
+  <rect width="1200" height="300" fill="url(#titleGlow)"/>
+
+  <!-- Top accent bar (3px) -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accentLine)"/>
+
+  <!-- Decorative flowing lines (very subtle) -->
+  <path d="M 0 200 Q 300 120 600 170 Q 900 220 1200 140"
+        stroke="#3b82f6" stroke-width="1" fill="none" opacity="0.07"/>
+  <path d="M 0 240 Q 300 160 600 210 Q 900 260 1200 180"
+        stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.06"/>
+
+  <!-- ── LEFT CONTENT BLOCK ────────────────────────────── -->
+
+  <!-- Eyebrow label -->
+  <text x="64" y="88"
+        font-family="'Segoe UI', 'Inter', Arial, sans-serif"
+        font-size="11" font-weight="600" letter-spacing="3.5"
+        fill="#3b82f6" opacity="0.9">
+    INSTRUCTOR-LED PROGRAM
+  </text>
+
+  <!-- Main title — clean white, no glow, high contrast -->
+  <text x="60" y="148"
+        font-family="'Segoe UI', 'Inter', Arial, sans-serif"
+        font-size="52" font-weight="700" letter-spacing="-0.5"
+        fill="#f8fafc">
+    Cloud Data Engineering
+  </text>
+
+  <!-- Gradient underline below title -->
+  <rect x="60" y="156" width="480" height="3" rx="2" fill="url(#underline)"/>
+
+  <!-- Subtitle -->
+  <text x="62" y="188"
+        font-family="'Segoe UI', 'Inter', Arial, sans-serif"
+        font-size="15.5" font-weight="400" letter-spacing="0.2"
+        fill="#94a3b8">
+    From zero to job-ready · 7 months · 9 sections · 15+ real-world projects
+  </text>
+
+  <!-- ── TECH PILLS ────────────────────────────────────── -->
+  <!-- Row starts at y=216, pill height=26, radius=13 -->
+
+  <!-- SQL -->
+  <rect x="62"  y="214" width="52"  height="26" rx="13" fill="#1e3a5f"/>
+  <text x="88"  y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#93c5fd" text-anchor="middle">SQL</text>
+
+  <!-- Python -->
+  <rect x="120" y="214" width="68"  height="26" rx="13" fill="#172554"/>
+  <text x="154" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#818cf8" text-anchor="middle">Python</text>
+
+  <!-- Airflow -->
+  <rect x="194" y="214" width="70"  height="26" rx="13" fill="#083344"/>
+  <text x="229" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#22d3ee" text-anchor="middle">Airflow</text>
+
+  <!-- Docker -->
+  <rect x="270" y="214" width="68"  height="26" rx="13" fill="#1e3a5f"/>
+  <text x="304" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#60a5fa" text-anchor="middle">Docker</text>
+
+  <!-- Snowflake -->
+  <rect x="344" y="214" width="84"  height="26" rx="13" fill="#0c3547"/>
+  <text x="386" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#38bdf8" text-anchor="middle">Snowflake</text>
+
+  <!-- dbt -->
+  <rect x="434" y="214" width="48"  height="26" rx="13" fill="#431407"/>
+  <text x="458" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#fb923c" text-anchor="middle">dbt</text>
+
+  <!-- Kafka -->
+  <rect x="488" y="214" width="62"  height="26" rx="13" fill="#2e1065"/>
+  <text x="519" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#c4b5fd" text-anchor="middle">Kafka</text>
+
+  <!-- AWS -->
+  <rect x="556" y="214" width="52"  height="26" rx="13" fill="#431407"/>
+  <text x="582" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#fdba74" text-anchor="middle">AWS</text>
+
+  <!-- Azure -->
+  <rect x="614" y="214" width="60"  height="26" rx="13" fill="#1e3a5f"/>
+  <text x="644" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#7dd3fc" text-anchor="middle">Azure</text>
+
+  <!-- CI/CD -->
+  <rect x="680" y="214" width="58"  height="26" rx="13" fill="#14532d"/>
+  <text x="709" y="231" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" font-weight="600" fill="#86efac" text-anchor="middle">CI/CD</text>
+
+  <!-- Tagline -->
+  <text x="62" y="272"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="12" fill="#475569" letter-spacing="2.5">
+    THEORY  ·  HANDS-ON PROJECTS  ·  REAL-WORLD PIPELINES
+  </text>
+
+  <!-- ── RIGHT STATS PANEL ──────────────────────────────── -->
+
+  <!-- Panel background -->
+  <rect x="960" y="40" width="196" height="220" rx="14"
+        fill="#0f172a" opacity="0.85" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Dividers -->
+  <line x1="960" y1="113" x2="1156" y2="113" stroke="#1e293b" stroke-width="1"/>
+  <line x1="960" y1="186" x2="1156" y2="186" stroke="#1e293b" stroke-width="1"/>
+  <line x1="1058" y1="186" x2="1058" y2="260" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Stat 1 — Duration -->
+  <text x="1058" y="76"  font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">DURATION</text>
+  <text x="1058" y="104" font-family="'Segoe UI',Arial,sans-serif" font-size="32" font-weight="700" fill="#f8fafc" text-anchor="middle">7 <tspan font-size="16" fill="#94a3b8" font-weight="400">months</tspan></text>
+
+  <!-- Stat 2 — Sections -->
+  <text x="1009" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">SECTIONS</text>
+  <text x="1009" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#818cf8" text-anchor="middle">9</text>
+
+  <!-- Stat 3 — Classes -->
+  <text x="1107" y="148" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">CLASSES</text>
+  <text x="1107" y="175" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#38bdf8" text-anchor="middle">25+</text>
+
+  <!-- Stat 4 — Projects -->
+  <text x="1009" y="218" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">PROJECTS</text>
+  <text x="1009" y="248" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#34d399" text-anchor="middle">15+</text>
+
+  <!-- Stat 5 — Hours -->
+  <text x="1107" y="218" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">HOURS</text>
+  <text x="1107" y="248" font-family="'Segoe UI',Arial,sans-serif" font-size="28" font-weight="700" fill="#fb923c" text-anchor="middle">75+</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="297" width="1200" height="3" fill="url(#accentLine)" opacity="0.5"/>
+</svg>

@@ -1,6 +1,6 @@
 # CLOUD DATA ENGINEERING
 
-![cloud-data-enginnering-logo](./img/cloud-data-engineering.png)
+![cloud-data-engineering-banner](./img/banner.svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.3.0-blue.svg" alt="Version"/>
