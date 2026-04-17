@@ -43,18 +43,86 @@
 
 ## 📑 Table of Contents
 
-1. [Course Summary](#-course-summary)
-2. [Week 1 — Orientation](#-week-1--orientation)
-3. [Section 1 — SQL](#-section-1--sql-4-weeks)
-4. [Section 2 — Python](#-section-2--python-4-weeks)
-5. [Section 3 — Airflow](#-section-3--airflow-2-weeks)
-6. [Section 4 — CI/CD, Docker & Bash Scripting](#-section-4--cicd-docker--bash-scripting-2-weeks)
-7. [Section 5 — Agentic Vibe Engineering](#-section-5--agentic-vibe-engineering-1-week)
-8. [Section 6 — Snowflake + DBT](#-section-6--snowflake--dbt-4-weeks)
-9. [Section 7 — Kafka](#-section-7--kafka-2-weeks)
-10. [Section 8 — AWS](#-section-8--aws-4-weeks)
-11. [Section 9 — Azure](#-section-9--azure-3-weeks)
-12. [Why These Technologies?](#-why-these-technologies)
+1. [How to Use This Repo](#-how-to-use-this-repo)
+2. [Course Summary](#-course-summary)
+3. [Week 1 — Orientation](#-week-1--orientation)
+4. [Section 1 — SQL](#-section-1--sql-4-weeks)
+5. [Section 2 — Python](#-section-2--python-4-weeks)
+6. [Section 3 — Airflow](#-section-3--airflow-2-weeks)
+7. [Section 4 — CI/CD, Docker & Bash Scripting](#-section-4--cicd-docker--bash-scripting-2-weeks)
+8. [Section 5 — Agentic Vibe Engineering](#-section-5--agentic-vibe-engineering-1-week)
+9. [Section 6 — Snowflake + DBT](#-section-6--snowflake--dbt-4-weeks)
+10. [Section 7 — Kafka](#-section-7--kafka-2-weeks)
+11. [Section 8 — AWS](#-section-8--aws-4-weeks)
+12. [Section 9 — Azure](#-section-9--azure-3-weeks)
+13. [Why These Technologies?](#-why-these-technologies)
+
+---
+
+## 🚀 How to Use This Repo
+
+This repository is your **personal workspace for the entire course**. Follow the steps below to get started and submit your work.
+
+### Step 1 — Fork the Repository
+
+Click the **Fork** button at the top-right of this page to create your own copy of the repo under your GitHub account.
+
+```
+https://github.com/aiwithqasim/cloud-data-engineering
+         ↓  click Fork
+https://github.com/<your-username>/cloud-data-engineering
+```
+
+### Step 2 — Clone Your Fork Locally
+
+```bash
+git clone https://github.com/<your-username>/cloud-data-engineering.git
+cd cloud-data-engineering
+```
+
+### Step 3 — Create Your Batch Folder
+
+Inside the repo, create a folder with your name and batch number. Keep **all your class code, notes, and project files** inside it throughout the course.
+
+```
+cloud-data-engineering/
+└── students/
+    └── <your-name>-<batch>/        ← your personal folder
+        ├── sql/
+        ├── python/
+        ├── airflow/
+        ├── snowflake-dbt/
+        ├── kafka/
+        ├── aws/
+        └── azure/
+```
+
+### Step 4 — Commit & Push After Every Class
+
+After each class, stage your work and push it to your fork:
+
+```bash
+git add .
+git commit -m "section: add <topic> notes and exercises"
+git push origin main
+```
+
+### Step 5 — Submit via Pull Request
+
+Once you have completed the course (or a major section), open a **Pull Request** from your fork back to the main repo to submit your work for review.
+
+1. Go to your fork on GitHub
+2. Click **Contribute → Open pull request**
+3. Set the title to: `[Batch X] <Your Name> — Course Submission`
+4. In the description briefly mention: sections completed, projects built, and any highlights
+5. Submit — your instructor will review and provide feedback
+
+> **Note:** Keep your fork up to date with the main repo as new content is added by running:
+> ```bash
+> git remote add upstream https://github.com/aiwithqasim/cloud-data-engineering.git
+> git fetch upstream
+> git merge upstream/main
+> ```
 
 ---
 
