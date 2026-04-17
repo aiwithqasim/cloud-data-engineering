@@ -1,5 +1,23 @@
 # CLOUD DATA ENGINEERING
 
+<table>
+<tr>
+<td>
+
+⚠️ &nbsp;<strong>FOR FACULTY — GUIDELINES ON COURSE CONTENT</strong>
+
+- Do **not** teach topics outside the defined scope of this roadmap.
+- If you feel a topic is important or valuable for students, **discuss and coordinate with Qasim first** before introducing it in class.
+- Do **not** modify, rename, or restructure any course content, file paths, or folder structure without prior approval.
+- Any suggestions or improvements are welcome — but must go through discussion **before** being applied.
+- **Unauthorised changes to course material will not be accepted in Pull Requests.**
+
+> — **Qasim Hassan** · Lead Data Engineer Instructor · Saylani Welfare
+
+</td>
+</tr>
+</table>
+
 <div align="center">
 
 ![cloud-data-engineering-banner](./img/banner.svg)
@@ -116,6 +134,9 @@ Once you have completed the course (or a major section), open a **Pull Request**
 3. Set the title to: `[Batch X] <Your Name> — Course Submission`
 4. In the description briefly mention: sections completed, projects built, and any highlights
 5. Submit — your instructor will review and provide feedback
+
+> **Important — Course Content Changes:**
+> Any changes to course content, folder structure, file paths, or the roadmap must be **discussed with Qasim first**. Do not modify, rename, or restructure any existing content without prior approval. If you have a suggestion or improvement, reach out and discuss it before making any changes. Unauthorised changes to course material will not be accepted in Pull Requests.
 
 > **Note:** Keep your fork up to date with the main repo as new content is added by running:
 > ```bash
