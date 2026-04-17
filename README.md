@@ -1,29 +1,44 @@
 # CLOUD DATA ENGINEERING
 
+<div align="center">
+
 ![cloud-data-engineering-banner](./img/banner.svg)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.3.0-blue.svg" alt="Version"/>
-  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status"/>
-  <img src="https://img.shields.io/github/contributors/MuhammadUzair1/Cloud-Data-Engineering" alt="Contributors"/>
-  <img src="https://img.shields.io/github/stars/MuhammadUzair1/Cloud-Data-Engineering?style=social" alt="Stars"/>
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
-</p>
+</div>
 
----
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-025E8C?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Snowflake-29B5E8?logo=snowflake&logoColor=white" />
-  <img src="https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-017CEE?logo=apache-airflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?logo=apache-kafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
-</p>
+<!-- Course status row -->
+[![Version](https://img.shields.io/badge/version-1.3.0-3b82f6?style=for-the-badge&logoColor=white)](https://github.com/aiwithqasim/cloud-data-engineering)
+[![Status](https://img.shields.io/badge/status-active-10b981?style=for-the-badge&logoColor=white)](https://github.com/aiwithqasim/cloud-data-engineering)
+[![License](https://img.shields.io/badge/license-MIT-8b5cf6?style=for-the-badge&logoColor=white)](./LICENSE)
+[![Duration](https://img.shields.io/badge/duration-7_months-f59e0b?style=for-the-badge&logoColor=white)](https://github.com/aiwithqasim/cloud-data-engineering)
+[![GitHub Stars](https://img.shields.io/github/stars/aiwithqasim/cloud-data-engineering?style=for-the-badge&logo=github&color=f8fafc&labelColor=1e293b)](https://github.com/aiwithqasim/cloud-data-engineering/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/aiwithqasim/cloud-data-engineering?style=for-the-badge&logo=github&color=34d399&labelColor=1e293b)](https://github.com/aiwithqasim/cloud-data-engineering/graphs/contributors)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<!-- Core languages & tools row -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+<!-- Cloud & infra row -->
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
 
 ---
 
