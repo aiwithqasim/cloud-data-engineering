@@ -69,7 +69,8 @@
 10. [Section 7 — Kafka](#-section-7--kafka-2-weeks)
 11. [Section 8 — AWS](#-section-8--aws-4-weeks)
 12. [Section 9 — Azure](#-section-9--azure-3-weeks)
-13. [Why These Technologies?](#-why-these-technologies)
+13. [Final Hackathon](#-final-hackathon)
+14. [Why These Technologies?](#-why-these-technologies)
 
 ## 🚀 How to Use This Repo
 
@@ -160,7 +161,7 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 ### Delivery Approach
 
 - **Format:** Instructor-led live classes (3 hours each), recorded for replay
-- **Frequency:** 2–3 classes per week
+- **Frequency:** 2 classes per week
 - **Each section includes:** Theory + hands-on coding + real-world projects
 - **Projects:** Every major section closes with at least one end-to-end project
 - **Support:** Community forum + office hours for doubt resolution
@@ -183,7 +184,7 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 
 ## 🗄️ Section 1 — SQL *(4 weeks)*
 
-![SQL](https://img.shields.io/badge/-SQL%20Server-025E8C?logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL%20Server-025E8C?logo=microsoftsqlserver&logoColor=white)
 
 **7 classes + 1 capstone project | 3 Snowflake badges**
 
@@ -246,7 +247,7 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 |-------|-------|----------|
 | Class 1 | Introduction, Architecture & Setup (Docker + WSL) | 3 hrs |
 | Class 2 | Weather ETL Project — End-to-End Airflow Pipeline | 3 hrs |
-| Class 3 | Parallel ETL Pipeline on AWS | 3 hrs |
+| Class 3 | FMP Parallel ETL Pipeline on AWS EC2 | 3 hrs |
 
 **What you'll cover:**
 - DAG concept, core components (Scheduler, Executor, Webserver, Metadata DB, XCom)
@@ -257,7 +258,7 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 
 **Projects:**
 - **Weather ETL Pipeline** — Daily pipeline using Open-Meteo API → pandas → SQLite, deployed via Docker Compose
-- **Parallel ETL on AWS** — Production-style parallel pipeline: OpenWeather API + S3 CSV → RDS PostgreSQL → S3 export, using TaskGroups on AWS EC2
+- **Parallel ETL on AWS** — Production-style parallel pipeline: FMP API + S3 CSV → RDS PostgreSQL → S3 export, using TaskGroups on AWS EC2
 
 ## 🐋 Section 4 — CI/CD, Docker & Bash Scripting *(2 weeks)*
 
@@ -292,11 +293,11 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 
 **What you'll cover:**
 - Deep dive into **Claude Code** (Skills, MCP, Hooks, Subagents, Sandboxes, Orchestrators)
-- Hands-on with Cursor, Codex, Antigravity, Copilot, OpenCode, and Amp
+- Hands-on with Cursor, Codex, Copilot
 - Swarms, Agent Teams, Claude Agent SDK
 - Ralph Loops, GSD, Gas Town, OpenClaw, sprites.dev
 
-**Tools:** Cursor · Codex · Antigravity · Claude · Copilot
+**Tools:** Cursor · Codex · Claude · Copilot
 
 ## ❄️ Section 6 — Snowflake + DBT *(4 weeks)*
 
@@ -362,7 +363,7 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 
 End-to-end AWS data engineering series: S3 ingestion → Glue Crawler schema discovery → Glue ETL transformations → serverless Athena queries → Redshift analytics → QuickSight dashboarding. Includes Python, SQL, IAM, and real-world project.
 
-- 🎥 [Playlist](https://www.youtube.com/watch?v=QHIOX_RqjLI&list=PLBJe2dFI4sgt-9GR2j-rTeKtimE9pfqyt)
+- 🎥 [Video](https://youtu.be/qBocgdMGEWs?si=EMEH8g39irDV4x9y)
 
 ### Track 2 — Event Driven Architecture
 *(Lambda · SQS · Step Functions · SNS · EventBridge)*
@@ -397,6 +398,16 @@ End-to-end AWS data engineering series: S3 ingestion → Glue Crawler schema dis
 - **Azure Fabric** — End-to-end analytics platform: data integration, real-time intelligence, data warehousing, and Power BI reporting in a unified SaaS environment.
 
 - **Azure Synapse Analytics** — Unified analytics service combining big data processing and enterprise data warehousing with dedicated and serverless SQL pools.
+
+## 🏁 Final Hackathon
+
+The course finishes with a **one-day final hackathon**: an intensive, hands-on sprint where you **implement a case study** grounded in everything you have learned so far.
+
+You will work from a realistic brief — similar to what you might see on a data engineering team — and **translate requirements into a working solution** within the day. Expect to combine skills across the stack: querying and modeling, Python automation, orchestration and quality practices, and cloud services (for example AWS or Azure patterns covered in the program), depending on what the scenario demands.
+
+**Why it matters:** This is where individual topics **come together**. Instead of isolated exercises, you practice scoping the problem, making trade-offs, debugging under time pressure, and presenting something concrete you can talk about in interviews or portfolios.
+
+
 
 ## ❓ Why These Technologies?
 
