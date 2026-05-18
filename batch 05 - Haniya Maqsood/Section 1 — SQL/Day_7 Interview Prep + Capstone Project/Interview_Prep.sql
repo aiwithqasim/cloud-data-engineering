@@ -1,0 +1,260 @@
+-- ================================================================================
+-- INTERVIEW PREP: BikeStores Database - 15 Real Interview Questions
+-- Use Case: SQL Developer, Data Analyst, Database Engineer Interviews Questions
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 1: Basic SELECT & Filtering (Beginner)
+-- ================================================================================
+-- 
+-- "Write a query to find all customers from California (state = 'CA') 
+--  who have a phone number recorded. Show their full name, email, and phone.
+--  Order by last name, then first name."
+--
+-- Interviewer checks: Basic SELECT, WHERE clauses, NULL handling, ORDER BY
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 2: JOINs & Aggregation (Beginner-Intermediate)
+-- ================================================================================
+--
+-- "For each brand, show the brand name, total number of products, 
+--  average list price, and the most expensive product price. 
+--  Only include brands that have at least 5 products."
+--
+-- Interviewer checks: INNER JOIN, GROUP BY, aggregate functions (COUNT, AVG, MAX), HAVING clause
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 3: Subquery vs CTE (Intermediate)
+-- ================================================================================
+--
+-- "Find customers who have spent more than the average customer total spend.
+--  Show customer name, total spent, and the overall average for comparison.
+--  Solve this using BOTH a subquery AND a CTE (write two versions)."
+--
+-- Interviewer checks: Subquery understanding, CTE syntax, comparison logic
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 4: Window Functions - Ranking (Intermediate)
+-- ================================================================================
+--
+-- "For each store, rank the staff members by the number of orders they've processed.
+--  Show store name, staff name, order count, and rank (1 = most orders).
+--  If two staff have same count, they should get the same rank."
+--
+-- Interviewer checks: Window functions (RANK/DENSE_RANK), PARTITION BY, JOINs
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 5: Date Functions & Data Analysis (Intermediate)
+-- ================================================================================
+--
+-- "Calculate month-over-month sales growth for 2023.
+--  Show month, total sales, previous month sales, and growth percentage.
+--  Exclude months with no previous month data."
+--
+-- Interviewer checks: Date functions (YEAR, MONTH), LAG(), percentage calculations
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 6: Performance Tuning (Advanced)
+-- ================================================================================
+--
+-- "The following query runs very slowly on the production database:
+--    
+--    SELECT * FROM sales.orders o
+--    JOIN sales.order_items oi ON o.order_id = oi.order_id
+--    WHERE o.order_date BETWEEN '2023-01-01' AND '2023-12-31'
+--      AND oi.discount > 0.1
+--    
+--    What indexes would you create to optimize this query? 
+--    Write the CREATE INDEX statements and explain your reasoning."
+--
+-- Interviewer checks: Indexing strategy, understanding of seek vs scan, composite indexes
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 7: CASE Statements & Data Categorization (Intermediate)
+-- ================================================================================
+--
+-- "Categorize products into price tiers:
+--    'Budget' = list_price < 500
+--    'Mid-Range' = list_price BETWEEN 500 AND 2000
+--    'Premium' = list_price BETWEEN 2001 AND 5000
+--    'Luxury' = list_price > 5000
+--    
+--  Then for each category, show:
+--    - Number of products
+--    - Average price
+--    - Most expensive product name
+--  Order by average price descending."
+--
+-- Interviewer checks: CASE expressions, conditional aggregation, subqueries
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 8: Self-Join & Hierarchical Data (Intermediate-Advanced)
+-- ================================================================================
+--
+-- "The staffs table has a manager_id column that references staff_id.
+--  Write a query to show each staff member and their manager's name.
+--  Also include staff who have no manager (CEO/President level).
+--  Format output as: 'Staff Name: John Doe, Manager: Jane Smith'"
+--
+-- Interviewer checks: Self-joins, LEFT JOIN, COALESCE, string concatenation
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 9: Data Integrity & Anomalies (Advanced)
+-- ================================================================================
+--
+-- "Write a query to identify data quality issues in the database:
+--    1. Customers with no orders (inactive)
+--    2. Orders with no items (orphaned)
+--    3. Products never sold
+--    4. Negative stock quantities
+--    
+--  For each issue, provide the count and a sample of affected records."
+--
+-- Interviewer checks: Data auditing, LEFT JOIN with NULL checks, data quality mindset
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 10: PIVOT & Reporting (Advanced)
+-- ================================================================================
+--
+-- "Create a cross-tab report showing total sales amount for each store 
+--  and each year (2021, 2022, 2023, 2024).
+--  If a store had no sales in a year, show 0.
+--  Columns should be: store_name, 2021, 2022, 2023, 2024, total_all_years"
+--
+-- Interviewer checks: PIVOT operator, COALESCE for NULL handling, column totals
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 11: Stored Procedure with Parameters (Advanced)
+-- ================================================================================
+--
+-- "Create a stored procedure called sp_GetTopCustomers that accepts:
+--    @StoreID INT = NULL (NULL means all stores)
+--    @TopN INT = 10 (number of customers to return)
+--    @StartDate DATE
+--    @EndDate DATE
+--    
+--  The procedure should return the top N customers by total purchase amount
+--  within the date range, including customer name, total spent, and rank."
+--
+-- Interviewer checks: Stored procedure design, parameter defaults, NULL handling, TOP with ties
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 12: Running Totals & Inventory Analysis (Advanced)
+-- ================================================================================
+--
+-- "For each product and store, calculate the running total of stock changes.
+--  Assume you have a hypothetical 'stock_movements' table with columns:
+--    movement_id, product_id, store_id, movement_date, quantity_change
+--    (positive = addition, negative = sale)
+--    
+--  Write a query that shows for each store and product:
+--    - Current stock (from production.stocks)
+--    - Total received (sum of positive movements)
+--    - Total sold (sum of negative movements)
+--    - Running total over time"
+--
+-- Interviewer checks: Window functions with SUM() OVER(), conditional aggregation
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 13: Query Optimization (Advanced)
+-- ================================================================================
+--
+-- "The following query is causing performance issues:
+--    
+--    SELECT DISTINCT c.first_name, c.last_name, c.email
+--    FROM sales.customers c
+--    WHERE c.customer_id IN (
+--        SELECT o.customer_id 
+--        FROM sales.orders o
+--        WHERE o.order_id IN (
+--            SELECT oi.order_id
+--            FROM sales.order_items oi
+--            WHERE oi.product_id IN (
+--                SELECT p.product_id
+--                FROM production.products p
+--                WHERE p.brand_id = 5
+--            )
+--        )
+--    )
+--    
+--  Rewrite this query to be more efficient using JOINs instead of nested IN.
+--  Explain why the new version is faster."
+--
+-- Interviewer checks: Query refactoring, understanding of execution plans, JOIN vs subquery
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 14: Transaction & Concurrency (Expert)
+-- ================================================================================
+--
+-- "You need to transfer a product from one store to another.
+--  Write a transaction that:
+--    1. Decreases stock by 5 units at Store A (store_id = 1, product_id = 10)
+--    2. Increases stock by 5 units at Store B (store_id = 2, product_id = 10)
+--    3. Inserts a record into a stock_transfer_log table
+--    4. If any step fails, rollback all changes
+--    
+--  Include proper error handling and isolation level considerations."
+--
+-- Interviewer checks: Transaction management, error handling (TRY/CATCH), ACID properties
+--
+-- ================================================================================
+
+-- ================================================================================
+-- QUESTION 15: Database Design & Normalization (Expert)
+-- ================================================================================
+--
+-- "The BikeStores database wants to add a feature for customer reviews and ratings.
+--  Design a normalized schema for product reviews including:
+--    - Customers can review products they purchased
+--    - Rating (1-5 stars)
+--    - Review text
+--    - Helpful votes count
+--    - Date of review
+--    - Staff response (optional)
+--    
+--  Write the CREATE TABLE statements with appropriate data types, constraints,
+--  and indexes. Explain your design choices and any potential issues."
+--
+-- Interviewer checks: Database design, normalization (3NF), foreign key relationships, indexing strategy
+--
+-- ================================================================================
+
+-- ================================================================================
+-- BONUS QUESTION: System Design & Scalability (Expert/Architect)
+-- ================================================================================
+--
+-- "The BikeStores database has grown to 100 million orders and is becoming slow.
+--  Propose a partitioning strategy to improve performance.
+--  Which column would you partition on? Why?
+--  What would be the partition function and scheme?
+--  How would this affect existing queries?"
+--
+-- Interviewer checks: Partitioning knowledge, scalability thinking, performance optimization
+--
+-- ================================================================================

@@ -1,0 +1,9 @@
+-- wsl installation
+
+wsl --install
+
+
+Enter new UNIX username: yourname
+Enter new UNIX password: ••••••••
+
+
