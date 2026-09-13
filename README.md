@@ -260,6 +260,9 @@ Welcome to the **Cloud Data Engineering** course — a comprehensive, instructor
 - **News AI ETL Pipeline** — End-to-end Airflow pipeline for news ingestion & AI-powered processing -> https://github.com/ayanhussain81/news-ai-etl
 - **Parallel ETL on AWS** — Production-style parallel pipeline: FMP API + S3 CSV → RDS PostgreSQL → S3 export, using TaskGroups on AWS EC2
 
+**Assignment:**
+- **Weather ETL Pipeline** — Daily pipeline using Open-Meteo API → pandas → SQLite, deployed via Docker Compose
+
 ## 🐋 Section 4 — CI/CD, Docker & Bash Scripting *(2 weeks)*
 
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
